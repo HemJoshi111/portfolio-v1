@@ -1,3 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Outfit', sans-serif;
+        scroll-behavior: smooth;
+    }
+
+    /* The "Engineering" Grid Background */
+    body {
+        @apply bg-slate-950 text-slate-200 overflow-x-hidden;
+        background-image: linear-gradient(to right, #1e293b 1px, transparent 1px),
+            linear-gradient(to bottom, #1e293b 1px, transparent 1px);
+        background-size: 4rem 4rem;
+        background-position: center center;
+    }
+
+    /* Scrollbar Customization */
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        @apply bg-slate-950;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-blue-600 rounded-full;
+    }
+}
+
+@layer utilities {
+    .font-mono {
+        font-family: 'JetBrains Mono', monospace;
+    }
+
+    /* Text Gradient Utility */
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-cyan-300;
+    }
+
+    /* Glow Effect */
+    .glow-point {
+        @apply absolute w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-pulse;
+    }
+}
