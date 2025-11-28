@@ -7,7 +7,7 @@ export const projectsData = [
     tech: ["React", "Node.js", "Socket.io", "MongoDB"],
     github: "https://github.com",
     demo: "https://demo.com",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" 
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop"
   },
   {
     id: 2,

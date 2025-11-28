@@ -21,7 +21,7 @@ const Home = () => {
                 >
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-mono mb-6">
-                        <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+                        <span className="w-2 h-2 rounded-full bg-green-600 animate-pulse"></span>
                         Available for Hire
                     </div>
 

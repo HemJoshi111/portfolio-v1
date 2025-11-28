@@ -1,9 +1,6 @@
-import {
-    FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaJava, FaGitAlt, FaLinux, FaDatabase
-} from 'react-icons/fa';
-import {
-    SiMongodb, SiExpress, SiTailwindcss, SiPostman, SiRedux, SiMysql, SiFirebase, SiVite
-} from 'react-icons/si';
+import { FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaJava, FaGitAlt, FaLinux, FaDatabase, FaPhp } from 'react-icons/fa';
+import { GiArtificialIntelligence } from "react-icons/gi";
+import { SiMongodb, SiExpress, SiTailwindcss, SiPostman, SiRedux, SiMysql, SiFirebase, SiVite } from 'react-icons/si';
 import { TbApi, TbBrandVscode, TbDeviceDesktopAnalytics } from 'react-icons/tb';
 
 export const skillsData = [
@@ -13,6 +10,8 @@ export const skillsData = [
         description: "Building responsive, performant user interfaces.",
         icon: <TbDeviceDesktopAnalytics className="w-6 h-6" />,
         skills: [
+            { name: "HTML5", level: "Advanced", icon: <FaHtml5 className="text-[#E34F26]" /> },
+            { name: "CSS3", level: "Advanced", icon: <FaCss3Alt className="text-[#1572B6]" /> },
             { name: "React.js", level: "Advanced", icon: <FaReact className="text-blue-400" /> },
             { name: "Tailwind CSS", level: "Advanced", icon: <SiTailwindcss className="text-cyan-400" /> },
             { name: "JavaScript (ES6+)", level: "Advanced", icon: <FaJs className="text-yellow-400" /> },
@@ -31,6 +30,7 @@ export const skillsData = [
             { name: "MongoDB", level: "Intermediate", icon: <SiMongodb className="text-green-500" /> },
             { name: "REST APIs", level: "Advanced", icon: <TbApi className="text-blue-300" /> },
             { name: "MySQL", level: "Intermediate", icon: <SiMysql className="text-blue-600" /> },
+            { name: "PHP", level: "Basic", icon: <FaPhp className="text-[#777BB4]" /> },
         ]
     },
     {
@@ -40,9 +40,10 @@ export const skillsData = [
         icon: <FaJava className="w-6 h-6" />,
         skills: [
             { name: "Java (OOP)", level: "Intermediate", icon: <FaJava className="text-red-500" /> },
-            { name: "Data Structures", level: "Academic", icon: <div className="font-mono font-bold text-yellow-500 text-xs">DSA</div> },
+            { name: "Data Structure & Algorithms", level: "Academic", icon: <div className="font-mono font-bold text-yellow-500 text-xs">DSA</div> },
             { name: "DBMS", level: "Academic", icon: <FaDatabase className="text-blue-400" /> },
-            { name: "OS & Networks", level: "Academic", icon: <FaLinux className="text-slate-200" /> },
+            { name: "OS & Computer Networks", level: "Academic", icon: <FaLinux className="text-slate-200" /> },
+            { name: "Artificial Intelligence", level: "Academic", icon: <GiArtificialIntelligence className="text-slate-200" /> },
         ]
     },
     {
