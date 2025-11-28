@@ -1,42 +1,55 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Distributed Task Manager",
+    title: "Connect Verse",
     category: "Full Stack",
-    description: "A real-time task management system with drag-and-drop capabilities. Built for scalability using microservices architecture patterns.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop"
+    description: "✨ A full-stack social media application built with the MERN stack (MongoDB, Express, React, Node.js).",
+    tech: ["React", "Node.js", "Tailwind", "MongoDB"],
+    github: "https://github.com/HemJoshi111/connect-verse",
+    demo: "https://connect-verse.pages.dev",
+    image: "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?q=80&w=870&auto=format&fit=crop"
   },
   {
     id: 2,
-    title: "AI-Powered Analytics",
-    category: "AI/ML",
-    description: "Dashboard that visualizes large datasets and predicts trends using TensorFlow.js. Features dark mode and exportable reports.",
-    tech: ["Python", "TensorFlow", "React", "D3.js"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2340&auto=format&fit=crop"
+    title: "Mern Blog App",
+    category: "Full Stack",
+    description: "A full-stack blog app built with the MERN stack.",
+    tech: ["Node.js", "Express", "Mongoose", "React"],
+    github: "https://github.com/HemJoshi111/mern-blog-app",
+    demo: "https://hemjoshi-blog.vercel.app",
+    image: "https://plus.unsplash.com/premium_photo-1720744786849-a7412d24ffbf?q=80&w=809&auto=format&fit=crop"
   },
   {
     id: 3,
-    title: "E-Commerce API Service",
-    category: "Backend",
-    description: "High-performance RESTful API for an e-commerce platform. Handles authentication, payments (Stripe), and inventory locking.",
-    tech: ["Node.js", "Express", "Redis", "PostgreSQL"],
-    github: "https://github.com",
-    demo: "https://demo.com",
-    image: "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?q=80&w=2340&auto=format&fit=crop"
-  },
-  {
-    id: 4,
     title: "Portfolio V1",
     category: "Frontend",
     description: "Modern portfolio website with glassmorphism design system and advanced Framer Motion animations.",
     tech: ["React", "Tailwind", "Framer Motion", "Vite"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/HemJoshi111/portfolio-v1",
+    demo: "https://HemJoshi.com.np",
     image: "https://images.unsplash.com/photo-1545665277-5937489579f2?q=80&w=2340&auto=format&fit=crop"
+  },
+  {
+    id: 4,
+    title: "Todo App",
+    category: "Frontend",
+    description: "A modern todo list application built with React, Vite, and Tailwind CSS.",
+    tech: ["React", "Tailwind", "Vite"],
+    github: "https://github.com/HemJoshi111/react-todo-app",
+    demo: "https://react-todo-app-3a7.pages.dev",
+    image: "https://images.unsplash.com/photo-1586281380117-5a60ae2050cc?q=80&w=870&auto=format&fit=crop"
+  },
+  {
+    id: 5,
+    title: "Online Food Ordering System",
+    category: "Full Stack",
+    description: "🍴 Complete Food Ordering System with web portal for restaurant management (PHP, MySQL) and Android app for customers (Java).",
+    tech: ["PHP", "Tailwind", "Java", "MySQL"],
+    github: "https://github.com/HemJoshi111/online-food-ordering-system",
+    demo: "https://github.com/HemJoshi111/online-food-ordering-system",
+    image: "https://images.unsplash.com/photo-1609427955204-d0a737cb2c1a?q=80&w=1032&auto=format&fit=crop"
   }
+
 ];
+
+// category: "Backend"
