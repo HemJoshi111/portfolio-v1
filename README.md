@@ -1,16 +1,86 @@
-# React + Vite
+# 👨‍💻 Hem Joshi | Professional Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
 
-Currently, two official plugins are available:
+> A modern, responsive, and engineering-focused portfolio website built with the MERN ecosystem in mind. Designed to showcase technical expertise in Full Stack Development, System Design, and Computer Engineering.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a single-page application (SPA) built to serve as a digital resume and project showcase. Unlike standard template portfolios, this application emphasizes **engineering best practices**, **scalable architecture**, and **performance**.
 
-## Expanding the ESLint configuration
+It features a custom "Dark Engineering" aesthetic with glassmorphism effects, strict TypeScript-ready folder structures, and robust routing logic.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### ✨ Key Features
+
+- **🎨 Modern UI/UX:** Dark mode default, glassmorphism components, and technical typography (JetBrains Mono + Outfit).
+- **📱 Fully Responsive:** Adaptive layout handling mobile, tablet, and ultra-wide desktops.
+- **⚡ High Performance:** Powered by Vite for instant HMR and optimized production builds.
+- **🧩 Component Architecture:** Atomic design principles with reusable `Button`, `Card`, and `Layout` components.
+- **🔍 Filterable Projects:** State-based filtering system for "Frontend", "Backend", and "Full Stack" projects with animations.
+- **📊 Tech Stack Dashboard:** A visual representation of technical skills categorized by domain.
+- **📧 Serverless Contact Form:** Integrated with **Formspree** for handling emails without a dedicated backend server.
+- **🛑 Custom 404 Page:** Graceful error handling for undefined routes.
+- **📄 Dynamic Metadata:** Custom hook `usePageTitle` for SEO-friendly dynamic document titles.
+
+---
+
+## 🛠️ Technology Stack
+
+| Category           | Technologies                                            |
+| :----------------- | :------------------------------------------------------ |
+| **Core Framework** | React 18 (Functional Components + Hooks)                |
+| **Build Tool**     | Vite                                                    |
+| **Styling**        | Tailwind CSS v3                                         |
+| **Animations**     | Framer Motion                                           |
+| **Routing**        | React Router DOM v6                                     |
+| **Icons**          | React Icons (FontAwesome, SimpleIcons)                  |
+| **Forms**          | @formspree/react                                        |
+| **Assets**         | Cloudinary (Favicon/Images), Public Folder (Resume PDF) |
+
+---
+
+## 📂 Engineering Architecture
+
+The folder structure follows industry standards for scalability and maintainability:
+
+```text
+src/
+├── assets/             # Static assets (images handled via imports)
+├── components/         # Reusable UI building blocks
+│   ├── common/         # Atomic components (Buttons, Inputs)
+│   ├── layout/         # Global layout (Navbar, Footer)
+│   └── project/        # Feature-specific components (ProjectCard)
+├── data/               # Static data layer (JSON/JS objects)
+│   ├── projects.jsx    # Project list & metadata
+│   └── skills.jsx      # Skill categories & icons
+├── hooks/              # Custom React Hooks
+│   └── usePageTitle.js # Logic for dynamic document titles
+├── pages/              # View/Route components
+│   ├── Home.jsx        # Landing page with Hero section
+│   ├── About.jsx       # Bio, Education & Resume Download
+│   ├── Projects.jsx    # Filterable showcase
+│   ├── Skills.jsx      # Tech stack dashboard
+│   ├── Contact.jsx     # Formspree integration
+│   └── NotFound.jsx    # 404 Error handling
+├── App.jsx             # Main Router configuration
+└── main.jsx            # Entry point & Global Styles
+```
+
+## 👨‍💻 Author
+
+### Hem Joshi
+
+- **Role**: Computer Engineer | Full Stack Developer
+
+- **Focus**: MERN Stack, System Design, Open Source
+
+- **Location**: Kathmandu, Nepal
+
+- **GitHub**: [@HemJoshi111](https://github.com/hemjoshi111 "Visit my GitHub profile")
+
+- **LinkedIn**: [Hem Joshi](linkedin.com/in/hem-joshii "Visit my GitHub profile")

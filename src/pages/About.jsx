@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGraduationCap, FaServer, FaCodeBranch } from 'react-icons/fa';
+import { FaGraduationCap, FaServer, FaFileDownload } from 'react-icons/fa'; // Added FaFileDownload
 import Button from '../components/common/Button';
 
 const About = () => {
@@ -19,14 +19,12 @@ const About = () => {
           className="relative"
         >
           <div className="relative z-10 rounded-2xl overflow-hidden border border-slate-800 bg-slate-900/50 backdrop-blur-sm aspect-[4/5] sm:aspect-square lg:aspect-[4/5]">
-
             <img
               src="https://res.cloudinary.com/dfm0chulq/image/upload/v1764179055/jmczfl2hrhpyxrzqrqqs.png"
               alt="Profile"
               className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
             />
 
-            {/* Overlay Info Card */}
             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-slate-950 to-transparent">
               <div className="bg-slate-900/90 backdrop-blur-md p-4 rounded-xl border border-slate-800">
                 <p className="text-slate-400 text-sm font-mono">Current Status</p>
@@ -38,7 +36,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Abstract Shapes */}
           <div className="absolute -bottom-10 -left-10 w-full h-full border-2 border-slate-800 rounded-2xl -z-10" />
         </motion.div>
 
@@ -62,7 +59,6 @@ const About = () => {
             </p>
           </div>
 
-          {/* Key Highlights Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 mb-8">
             <div className="p-4 bg-slate-900 border border-slate-800 rounded-xl hover:border-blue-500/30 transition-colors">
               <FaGraduationCap className="text-3xl text-blue-500 mb-3" />
@@ -76,11 +72,26 @@ const About = () => {
             </div>
           </div>
 
-          <Button to="/contact" variant="primary">
-            Let's Connect
-          </Button>
-        </motion.div>
+          {/* Action Buttons */}
+          <div className="flex flex-wrap gap-4">
+            <Button to="/contact" variant="primary">
+              Let's Connect
+            </Button>
 
+            {/* Resume Download Button */}
+            <Button
+              href="/resume.pdf"     /* References public/resume.pdf */
+              variant="outline"
+              download="Hem_Joshi_Resume.pdf" /* Forces download with specific filename */
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gap-2"
+            >
+              <FaFileDownload /> Download Resume
+            </Button>
+          </div>
+
+        </motion.div>
       </div>
     </div>
   );
