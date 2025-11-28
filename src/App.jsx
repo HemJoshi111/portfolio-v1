@@ -7,8 +7,10 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 import NotFound from './pages/NotFound';
+import usePageTitle from './hooks/usePageTitle';
 
 function App() {
+  usePageTitle();
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
