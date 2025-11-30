@@ -11,6 +11,17 @@ import usePageTitle from './hooks/usePageTitle';
 
 function App() {
   usePageTitle();
+
+  useEffect(() => {
+    const hostname = window.location.hostname;
+
+    // If the user is on the ".pages.dev" domain
+    if (hostname.includes('pages.dev')) {
+      // Force them to your main domain, preserving the path (e.g., /projects)
+      window.location.replace(`https://hemjoshi.com.np${window.location.pathname}`);
+    }
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
