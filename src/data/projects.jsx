@@ -48,6 +48,16 @@ export const projectsData = [
     github: "https://github.com/HemJoshi111/online-food-ordering-system",
     demo: "https://github.com/HemJoshi111/online-food-ordering-system",
     image: "https://images.unsplash.com/photo-1609427955204-d0a737cb2c1a?q=80&w=1032&auto=format&fit=crop"
+  },
+  {
+    id: 6,
+    title: "Asteroid Shooter Game",
+    category: "Frontend",
+    description: "A retro-style arcade shooter built with vanilla JavaScript and HTML5 Canvas.",
+    tech: ["HTML5 Canvas", "Tailwind", "Vanilla JavaScript (ES6+)", "CSS3"],
+    github: "https://github.com/HemJoshi111/asteroid-shooter-game",
+    demo: "https://asteroid-shooter-gamee.vercel.app",
+    image: "https://plus.unsplash.com/premium_vector-1746687307704-cfd6b6be4e7d?q=80&w=798&auto=format&fit=crop"
   }
 
 ];
