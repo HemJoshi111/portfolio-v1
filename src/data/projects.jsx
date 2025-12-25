@@ -53,7 +53,7 @@ export const projectsData = [
     id: 6,
     title: "Asteroid Shooter Game",
     category: "Frontend",
-    description: "A retro-style arcade shooter built with vanilla JavaScript and HTML5 Canvas.",
+    description: "🚀 A retro-style arcade shooter built with vanilla JavaScript and HTML5 Canvas.",
     tech: ["HTML5 Canvas", "Tailwind", "Vanilla JavaScript (ES6+)", "CSS3"],
     github: "https://github.com/HemJoshi111/asteroid-shooter-game",
     demo: "https://asteroid-shooter-gamee.vercel.app",

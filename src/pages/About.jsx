@@ -80,7 +80,7 @@ const About = () => {
 
             {/* Resume Download Button */}
             <Button
-              href="/resume.pdf"     /* References public/resume.pdf */
+              href="/my-resume.pdf"     /* References public/resume.pdf */
               variant="outline"
               download="Hem_Joshi_Resume.pdf" /* Forces download with specific filename */
               target="_blank"
